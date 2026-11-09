@@ -1,0 +1,10 @@
+# Tüm metin dosyaları depoda ve çalışma kopyasında LF satır sonuyla tutulur
+# (Windows'ta CRLF dönüşümü dosyaları gereksiz yere "değişmiş" gösteriyordu).
+* text=auto eol=lf
+
+# İkili dosyalar
+*.pdf binary
+*.docx binary
+*.png binary
+*.jpg binary
+*.traineddata binary

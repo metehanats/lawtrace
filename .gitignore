@@ -1,0 +1,30 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Arayüz (frontend/.gitignore ayrıca var)
+node_modules/
+.next/
+.next-e2e/
+test-results/
+playwright-report/
+
+# Yerel ayarlar ve gizli bilgiler (gizli bilgiler dosyalarda değil, kullanıcı ortam değişkenlerinde tutulur)
+.env
+.env.*
+.claude/settings.local.json
+
+# İşletim sistemi / düzenleyici
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Veritabanı verisi ve yüklenen belgeler proje klasöründe tutulmaz
+# (%USERPROFILE%\AvukatDosyaTakipVeri altında); yine de yanlışlıkla buraya düşerse:
+pgdata/
+depolama/
+*.log
